@@ -1,22 +1,27 @@
 <html>
 
   <head>
-    <title>WebShop 0.0.0</title>
+    <title>Sample App ;)</title>
     <!-- Importing SemanticUI core styles -->
     <link rel="stylesheet" type="text/css" href="/assets/semantic/dist/semantic.min.css">
 
     <!-- Importing personnals styles -->
-    <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <link rel="stylesheet" type="text/css" href="dist/css/style.min.css">
   </head>
 
-  <body>
+  <body ng-app="myApp">
 
     <!-- Sets the ngView component -->
+      <div class="content" ng-view></div>
 
   </body>
 
 <!-- Importing angular core files -->
 <script src="/node_modules/angular/angular.js"></script>
+<script src="/node_modules/angular-route/angular-route.min.js"></script>
+<!-- Loading app -->
+<script src="dist/js/app.min.js"></script>
+
 <!-- jQuery -->
 <script src="/node_modules/jquery/dist/jquery.min.js"></script>
 <!-- Importing SemanticUI core files -->
