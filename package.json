@@ -20,7 +20,6 @@
     "grunt-contrib-uglify": "^1.0.1",
     "grunt-contrib-watch": "^1.0.0",
     "grunt-nodemon": "^0.4.2",
-    "jquery": "^2.2.3",
-    "semantic-ui": "^2.1.8"
+    "jquery": "^2.2.3"
   }
 }
